@@ -1,28 +1,29 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="home">
-                <h3>HOME</h3>
-                <p id="home-score" class="score">0</p>
-                <div class="button-div">
-                    <button id="home-plus-one" onclick="homeAdd(), winningHome(), winningGuest()">+1</button>
-                    <button id="home-plus-two" onclick="homeAdd(), winningHome(), winningGuest()">+2</button>
-                    <button id="home-plus-three" onclick="homeAdd(), winningHome(), winningGuest()">+3</button>
-                </div>
-            </div>
-            <div class="guest">
-                <h3>GUEST</h3>
-                <p id="guest-score" class="score">0</p>
-                <div class="button-div">
-                    <button id="guest-plus-one" onclick="guestAdd(), winningHome(), winningGuest()">+1</button>
-                    <button id="guest-plus-two" onclick="guestAdd2(), winningHome(), winningGuest()">+2</button>
-                    <button id="guest-plus-three" onclick="guestAdd3(), winningHome(), winningGuest()">+3</button>
-                </div>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h3>HOME</h3>
+            <p id="home-score" class="score">0</p>
+            <div class="button-div">
+                <button id="home-plus-one" onclick="homeAdd(), winningHome(), winningGuest()">+1</button>
+                <button id="home-plus-two" onclick="homeAdd(), winningHome(), winningGuest()">+2</button>
+                <button id="home-plus-three" onclick="homeAdd(), winningHome(), winningGuest()">+3</button>
             </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div class="guest">
+            <h3>GUEST</h3>
+            <p id="guest-score" class="score">0</p>
+            <div class="button-div">
+                <button id="guest-plus-one" onclick="guestAdd(), winningHome(), winningGuest()">+1</button>
+                <button id="guest-plus-two" onclick="guestAdd2(), winningHome(), winningGuest()">+2</button>
+                <button id="guest-plus-three" onclick="guestAdd3(), winningHome(), winningGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
