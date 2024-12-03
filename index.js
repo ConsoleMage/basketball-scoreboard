@@ -10,9 +10,11 @@ let homeCount = parseInt(homeScore.textContent);
 function homeAdd() {
     homeScore.textContent = (homeCount += 1);
 }
+
 function homeAdd2() {
     homeScore.textContent = (homeCount += 2);
 }
+
 function homeAdd3() {
     homeScore.textContent = (homeCount += 3);
 }
@@ -29,9 +31,11 @@ let guestCount = parseInt(guestScore.textContent);
 function guestAdd() {
     guestScore.textContent = (guestCount += 1);
 }
+
 function guestAdd2() {
     guestScore.textContent = (guestCount += 2);
 }
+
 function guestAdd3() {
     guestScore.textContent = (guestCount += 3);
 }
