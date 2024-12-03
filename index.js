@@ -42,18 +42,18 @@ function guestAdd3() {
 
 // Winning Team
 
-function winningHome() { 
+function winningHome() {
     if (homeCount > guestCount) {
-        document.getElementsByClassName("home")[0].classList.add("glowing-border");    
+        document.getElementsByClassName("home")[0].classList.add("glowing-border");
     } else {
-        document.getElementsByClassName("home")[0].classList.remove("glowing-border");  
+        document.getElementsByClassName("home")[0].classList.remove("glowing-border");
     }
 }
 
-function winningGuest() { 
+function winningGuest() {
     if (guestCount > homeCount) {
-        document.getElementsByClassName("guest")[0].classList.add("glowing-border");    
+        document.getElementsByClassName("guest")[0].classList.add("glowing-border");
     } else {
-        document.getElementsByClassName("guest")[0].classList.remove("glowing-border"); 
+        document.getElementsByClassName("guest")[0].classList.remove("glowing-border");
     }
 }

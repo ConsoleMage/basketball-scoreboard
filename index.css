@@ -64,8 +64,8 @@ button {
   border: 5px solid transparent;
   border-radius: 10px;
   background-clip: padding-box;
-  box-shadow: 
-    0 0 10px gold, 
-    0 0 20px gold, 
+  box-shadow:
+    0 0 10px gold,
+    0 0 20px gold,
     0 0 30px gold;
 }
